@@ -1,5 +1,79 @@
-.pio
-.vscode/.browse.c_cpp.db*
-.vscode/c_cpp_properties.json
-.vscode/launch.json
-.vscode/ipch
+# PlatformIO Project Controls
+# https://docs.platformio.org/page/projectconf/section_env_build.html#build-dir
+.pio/
+.pioenvs/
+.piolibdeps/
+.piolibdeps_info.json
+.piolibdeps_info/
+.pio/build*/
+.pio/libdeps*/
+.pio/.cache
+.pio/.gcc-flags.json
+
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# PlatformIO debug files
+*.lss
+*.sym
+*.map
+
+# PlatformIO compiled binaries
+*.bin
+*.hex
+*.eep
+*.elf
+
+# PlatformIO temporary files
+*~
+
+# IDE files
+.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific temporary files
+src/*.backup
+src/*.tmp
+src/*.txt
